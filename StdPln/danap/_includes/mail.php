@@ -1,0 +1,1 @@
+<p>NOTE: A mailing address located outside Australia will incur an additional AUD$10 postage charge.</p>

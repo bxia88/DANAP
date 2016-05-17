@@ -1,0 +1,52 @@
+/* ---form label--- */
+div#form .fl {
+	font-weight: bold;
+}
+
+/* ---form answer--- */
+div#form .fa {
+}
+
+div#form .f12 {
+	font-size: 1.1em;
+}
+
+/* ---form label label--- */
+div#form .fll {
+	font-weight: bold;
+}
+
+div#form .fh {
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #CC3300;
+	padding-top: 1em;
+	margin-top: 1em;
+}
+
+div#form .finc {
+
+}
+div#form .fsh {
+	margin-bottom: 1em;
+	line-height: 1.1em;
+}
+
+
+div#form .fhr {
+	color: #CC3300;
+	background-color: #CC3300;
+	border: 0;
+	height: 1px;
+
+}
+div#form .fsh2{
+	line-height: 2.5em;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+div#form .tr {
+	font-size: .95em;
+
+}

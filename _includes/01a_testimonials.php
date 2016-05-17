@@ -1,0 +1,1 @@
+<?php $_GET['type'] = 0; include '01_testimonials.php'; ?>

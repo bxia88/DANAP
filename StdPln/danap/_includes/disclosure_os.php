@@ -1,0 +1,1 @@
+<p align="justify">Please provide full details of the circumstances. No benefits are payable for expenses for treatment of Chronic, Pre-Existing or Predisposing Medical Conditions, unless such condition was previously disclosed to DAN AP and the Insured Member received a written waiver for coverage of that condition.</p>

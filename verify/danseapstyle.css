@@ -1,0 +1,25 @@
+body { background-color: #003366; background-position: left center; font-size: 14px} 
+
+p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #FFFFCC} 
+
+td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #FFFFCC; background-position: top} 
+
+a:active { color: #66ccff; text-decoration: none; font-size: 14px; font-weight: normal} 
+a:hover { color: #3300FF; font-style: italic; text-decoration: none; font-size: 14px; font-weight: bold} 
+a:link { color: #66ccff; text-decoration: none; font-size: 14px; font-weight: normal} 
+a:visited { color: #66ccff; text-decoration: none; font-size: 14px; font-weight: normal} 
+
+h1 { font-variant: small-caps; font-weight: bold; font-size: 24pt; text-decoration: underline; text-align: center ; color: #FF0000} 
+h2 { font-variant: small-caps; font-weight: bolder; font-size: 18pt; color: #FF3333} 
+h3 { font-variant: small-caps; font-weight: bolder; font-size: 15pt; color: #FF3333} 
+h4 { font-variant: small-caps; font-weight: bolder; font-size: 14pt; color: #FF3333} 
+
+hr { width: 75%; align: : center; size: : 5 } 
+
+.italics { font-style: italic; color: #FFFFFF; font-size: 13px; font-weight: bold} 
+.small { font-size: 12px} 
+.boldnote { font-size: 15px; font-weight: bold; color: #FFFF00} 
+.boldnote2 { color: #FFFF00; font-weight: bold} 
+.navlinks { color: #66ccff; font-weight: bold} 
+.largelink { color: #66ccff; text-decoration: none; font-size: 24px; font-weight: bold} .largetext {  font-size: 18px; font-weight: bold}
+.red {  color: #FF0000}

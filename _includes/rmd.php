@@ -1,0 +1,3 @@
+<strong>The Name (First/Last) and Date of Birth fields must be completed</strong> The remaining &quot;Contact Details&quot; fields need only be completed if these have changed since your last application.<br /><br />
+		<strong>Residential Address:</strong> If you are unsure whether we have your current <u>residential, postal (if different from residential) and email addresses</u>, please provide these . If your membership pack and/or other materials are sent to an incorrect address, an additional charge will likely be required for your pack to be re-issued and sent to your current address. In addition you will not receive some of our important communications, like Alert Diver and/or Deeper With DAN.  
+		<br />

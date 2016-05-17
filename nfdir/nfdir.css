@@ -1,0 +1,168 @@
+/*DAN Asia-Pacific DIMS stylesheet*/
+
+body{
+	width:800px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#wrapper
+	{
+	font-family:"Verdana";
+	font-size:13px;
+	overflow : hidden;
+	width: 100%;
+	min-height:100%;
+	background-color:#E8E8E8;
+	border-style:solid;
+	border-width:1px;
+	clear:both;
+	}
+	
+#intro
+	{
+	background-color:#E8E8E8;
+	width:800px;
+	}
+#intro img
+	{
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	} 
+	
+#intro h1
+   {
+   text-align:center;
+   }
+
+#intro p
+   {
+   padding-left:40px;
+   padding-right:40px;
+   }
+   
+  
+
+.main
+	{
+	margin-top:10px;
+	background-color:#E8E8E8;
+	width:760px;
+	overflow: hidden;		
+	padding:20px;
+	max-width:920px;
+	float:left;
+
+	}
+
+.main h2
+	{
+	background-color:#C0C0C0;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	}
+
+.bold
+	{
+	font-weight:bold;
+	}	
+.blue
+	{
+	color:blue;
+	}
+.answers
+	{
+	padding-left:32px;
+	padding-right:32px;
+	display:block;
+	}
+
+
+
+	.col1
+	{
+	padding-left:32px;
+	padding-right:0px;
+	width:320px;
+	float:left;
+	background-color:#E8E8E8;
+	}
+
+
+
+	.col2
+	{
+	padding-left:32px;
+
+
+	float:left;
+	background-color:#E8E8E8;
+	}
+
+	.col3
+	{
+	padding-left:32px;
+	padding-right:32px;
+	max-width:250px;
+	float:left;
+	background-color:#E8E8E8;
+	}
+	
+	#equipment
+	{
+	display:none;
+	}
+	
+	#rebreather
+	{
+	display:none;
+	}
+	
+	
+	
+	#ebutton
+	{
+	width:80px;
+	}
+	
+	#rbutton
+	{
+	width:80px;
+	}
+
+	#submit
+	{
+	  width: 148px;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url('submit.png') no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+  margin-left:40%;
+	}
+
+	#contact_details
+	{
+	
+	
+	}
+	
+	#contact_input
+	{
+	text-align:right;
+	width:310px;
+
+	padding:0px;
+	}
+	
+	.optional
+	{
+
+	}

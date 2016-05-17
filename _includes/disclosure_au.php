@@ -1,0 +1,1 @@
+<p align="justify">Please provide full details of the circumstances. No benefit will be paid under any plan for charges in connection with any injury or illness arising directly or indirectly from any Pre-existing Condition or any Predisposing Medical Condition unless the condition is specifically mentioned as exempt on your Certificate of Insurance.</p>

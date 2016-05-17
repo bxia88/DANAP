@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<package unique-identifier = "{0420D51D-949B-4A8F-8CDF-D246F0ACF333}">
+   <certificate version = "3.0.1" id = "38a4a052017f7d190d97cc3bf33f9501" authorid = "divers_alert_network_asia_pacific">
+      <security encryption = "no">
+         <flipbook id = "38a4a052017f7d190d97cc3bf33f9501">
+            <signature content = "b20d0ba11dfad0b2410d78607dcbc128"/>
+            <integrity content = "74ebbaf1074894c37bbe07c09f7a8fc6"/>
+         </flipbook>
+         <encryption content = "356443714F784C30314E2B57712F63786E6433464B6E324C7473486165544964782B3868464B794A6179383D"/>
+         <constraints>
+            <date type = "forever" value = "2015-07-01"/>
+         </constraints>
+      </security>
+      <rights>
+         <permissions>
+            <pdf allow = "yes"/>
+            <display allow = "yes"/>
+            <enlarge allow = "yes"/>
+            <print allow = "yes"/>
+         </permissions>
+      </rights>
+   </certificate>
+   <certificate_digital_signature>
+      <signature content = "5358496B712B70754D56687365454350556E68625962507A574B6D4A727372426C33426A384855575656303D"/>
+   </certificate_digital_signature>
+</package>

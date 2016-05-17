@@ -1,0 +1,1 @@
+<p>If the postal service in the country you reside is unreliable, you may provide a mailing address, which may be in another country, so that you receive your Membership Pack and other communications, such as Alert Diver magazine.</p>

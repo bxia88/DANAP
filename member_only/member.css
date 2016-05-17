@@ -1,0 +1,134 @@
+/*DAN Asia-Pacific Member Only stylesheet*/	
+	
+	
+	/*BODY*/
+	
+			body
+			{
+			text-align: center;
+			font-family:'arial';
+			margin:0;
+			padding:0;
+			}
+			
+			body a
+			{
+			color:#008080;
+			border-style:none;
+			}
+			
+			body img
+			{
+			border-style:none;
+			}
+			
+			body a:hover
+			{
+			color:#990000;
+			}
+		
+				
+	/*BANNER*/
+		
+			#banner
+			{
+			background-image:url('bg.png');
+			height:230px;
+			}
+			
+			#banner img
+			{
+			margin-top:30px;	
+			}
+		
+				
+	/*CONTENT*/
+	
+			#content
+			{
+			margin-left:auto;
+			margin-right:auto;
+			width:800px;
+			text-align: left;
+			border-bottom-style:solid;
+			border-width:1px;
+			padding:20px;
+			margin-bottom:10px;
+			padding-top:0px;
+			overflow:hidden;
+			}
+				
+				
+			#content h1
+			{
+			font-family:'arial';
+			margin:0;
+			padding:0;
+			font-size:22px;
+			color:#990000;
+			}
+			
+				
+			/*FOOTER*/
+			
+			#footer ul
+			
+			{
+			list-style:none;
+			}
+			
+			#footer li
+			{
+			display:inline;
+			padding:5px;
+			font-size:12px;
+			border-style:solid;
+			border-width:1px;
+			border-color:#C9C9C9;
+			background-color:#008080;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			
+			}
+			
+			
+			#footer a
+			{
+			color:#C9C9C9;
+			text-decoration:none;
+			}
+		
+			#footer a:hover
+			{
+			color:#990000;
+			}
+			
+				
+	/*ARTICLE*/
+			
+			#article
+			{
+			line-height:130%;
+			font-size:14px;
+			}
+				
+			#article h2
+			{
+			font-family:'arial';
+			margin:0;
+			padding:0;
+			font-size:18px;
+			color:#990000;
+			}
+			
+			
+	.back
+		{
+		font-size:12px;
+		}		
+		
+	#back_space
+	{
+	height:50px;
+	}

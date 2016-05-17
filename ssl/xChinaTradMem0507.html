@@ -1,0 +1,454 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>潛水人警報網絡亞太區分部</title>
+<style type="text/css">
+<!--
+a:visited {
+	color: #34707A;
+	text-decoration: none;
+}
+a:hover {
+	color: #50A7B6;
+	text-decoration: underline;
+}
+a:active {
+	color: #34707A;
+	text-decoration: none;
+}
+a:link {
+	color: #34707A;
+	text-decoration: none;
+}
+.style12 {font-family: "新細明體"; line-height: 20px; font-size: 12px; color: #000000; }
+.style14 {font-weight: bold}
+.style16 {font-family: "新細明體"; line-height: 20px; font-size: 12px; color: #000000; font-weight: bold; }
+-->
+</style>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') {
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (val<min || max<val) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('請檢查以下輸入： 英文姓名 電郵 總額\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</head>
+
+<body>
+<FORM onSubmit="MM_validateForm('amount','','R','email','','R','eng_family_name','','R');return document.MM_returnValue" 
+action=http://mailgate.server-mail.com/cgi-bin/mailgate method=post><INPUT 
+type=hidden value=chinainfo@danasiapacific.org name=recipient><INPUT type=hidden 
+value="Membership Application" name=subject><INPUT type=hidden 
+value=http://www.danasiapacific.org/chinese/thankyou.html
+name=redirect>
+
+
+<table width="700" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#81B1BC">
+  <tr>
+  
+  
+    <td valign="top"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td bgcolor="#dbedf0"><p align="center" class="MsoNormal style14" style="TEXT-ALIGN: center"><span class="style12" 
+style="FONT-FAMILY: 新細明體" lang="ZH-TW" xml:lang="ZH-TW"><strong>會員申請表</strong></span><span class="style12" style="FONT-FAMILY: 新細明體"><O:P></O:P> 
+              <br />
+              </span><span class="style12" 
+style="FONT-FAMILY: 新細明體" lang="ZH-TW" xml:lang="ZH-TW">感謝您成為</span><span class="style12" style="FONT-FAMILY: 新細明體">DAN<span 
+lang="ZH-TW" xml:lang="ZH-TW">會員以行動支持潛水安全</span>!<br />
+              </span></p></td>
+        </tr>
+        <tr> 
+          <td valign="top" background="images/dot_v.gif"><img src="images/space.gif" width="1" height="1" /></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#EDFDFE">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td align="center"><table width="700" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="6" bgcolor="#EDFDFE">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#EDFDFE"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><table width="600" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td colspan="2" align="center" class="style12">轉介編號 (Referral 
+                          id): 
+                          <input name="referral_id" type="text" id="referral_id" size="6" />
+                          (如適用) </td>
+                      </tr>
+                      <tr> 
+                        <td width="279" align="left"><span class="style12">新加入 
+                          / 更新會藉: </span> <select name="Application_type" id="Application_type">
+                            <option value="NEW" selected="selected">新加入</option>
+                            <option value="RENEWAL">更新</option>
+                          </select></td>
+                        <td width="321" align="left"><span class="style12">如更新會藉，請輸入會員號碼:</span> 
+                          <input name="previous_member_no" type="text" id="previous_member_no" size="14" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">英文姓名: 姓</span> 
+                          <input name="eng_family_name" type="text" id="eng_family_name" /></td>
+                        <td align="left"><span class="style12">名</span> <input name="eng_given_name" type="text" id="eng_given_name" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">中文姓名: 姓</span> 
+                          <input name="chinese_family_name" type="text" id="chinese_family_name" size="6" /> 
+                          <span class="style12">名</span> <input name="chinese_given_name" type="text" id="chinese_given_name" size="10" /></td>
+                        <td align="left">&nbsp;</td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">別名:</span> <input name="Other_name" type="text" id="Other_name" /></td>
+                        <td align="left" class="style12">住址: 
+                          <input type="text" name="address" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">城市:</span> <input type="text" name="state" /></td>
+                        <td align="left" class="style12">地區: 
+                          <input type="text" name="city" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">郵編: </span> <input type="text" name="postcode" /></td>
+                        <td align="left" class="style12">國家: 
+                          <input type="text" name="country" /></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2" align="left"  class="style12">英語通訊地址 （請盡量提供） 
+                          <input name="eng_address" type="text" id="eng_address" size="60" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">出生日期(日/月/年):</span> 
+                          <input type="text" name="birthday" /></td>
+                        <td align="left" class="style12">住宅電話: 
+                          <input type="text" name="home" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">辦事處電話:</span> <input type="text" name="office" /></td>
+                        <td align="left" class="style12">傳真: 
+                          <input type="text" name="fax" /></td>
+                      </tr>
+                      <tr> 
+                        <td align="left"><span class="style12">電郵地址:</span> <input type="text" name="email" /></td>
+                        <td align="left" class="style12">國藉: 
+                          <input name="nationality" type="text" id="nationality" /></td>
+                      </tr>
+                    </table></td>
+                    </tr>
+                  </table></td>
+                <td width="7" bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#EDFDFE"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="277" align="left" class="style12"> <div align="left"> 
+                          <font color="#000066"><strong> 
+                          <input type="radio" name="memberplan" value="travelassist_only" />
+                          基本會員 （只含 <em>旅途援助</em> ） AUD$45</strong></font></div></td>
+                      <td width="323" align="left" class="style12"> <div align="left"> 
+                          <font color="#000066"><strong> 
+                          <input type="radio" name="memberplan" value="standard_benefits" />
+                          標準會員 AUD$110</strong></font></div></td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12"> <div align="left"> <font color="#000066"><strong> 
+                          <input type="radio" name="memberplan" value="master_benefits" />
+                          高級會員 AUD$130</strong></font></div></td>
+                      <td align="left" class="style12"> <div align="left"> <font color="#000066"><strong> 
+                          <input type="radio" name="memberplan" value="preferred_benefits" />
+                          特級會員 AUD$185</strong></font></div></td>
+                    </tr>
+                  </table></td>
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+                <td align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+                <td width="46" align="center" valign="top" bgcolor="#EDFDFE"><div align="left"></div></td>
+                <td width="373" align="center" valign="top" bgcolor="#EDFDFE"  class="style12"><div align="left">你希望接收每三個月一期的英語版 
+                    Alert Diver 雜誌嗎? <br />
+                    （* 如選擇接收，會費將增加AU$25）<br />
+                  </div></td>
+                <td width="268" align="center" valign="top" bgcolor="#EDFDFE"  class="style12"><div align="left"> 
+                    <select name="AD_Subscription" id="AD_Subscription">
+                      <option value="NO" selected="selected">否</option>
+                      <option value="YES*">是</option>
+                    </select>
+                  </div></td>
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#C2C2C2">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#C2C2C2"><table width="600" height="50" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td align="left" class="style16"><br />
+                        你可以選擇以每位AU$25的價錢，將<em> 旅途援助</em> 的保障加給你的家庭成員＊<br />
+                    ＊家庭成員只包括配偶 及 18歲以下的未婚子女<br />
+                        ＊家庭成員必須跟主會員隨行方能享用<em>旅途援助<br />
+                        <br />
+                        </em></td>
+                    </tr>
+                  </table></td>
+                <td bgcolor="#C2C2C2">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#F3F3F3">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#F3F3F3">&nbsp;</td>
+                <td bgcolor="#F3F3F3">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#E1E1E1">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#E1E1E1"  class="style12"><strong><br />
+                  我希望將<em> 旅途援助</em> 的保障伸延到以下的家庭成員</strong></td>
+                <td bgcolor="#E1E1E1">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#E1E1E1">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#E1E1E1"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      
+                  <td width="284" height="25" align="left" class="style16">家庭計劃 
+                    申請人甲 </td>
+                      <td width="316" height="25" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12">英文姓名: 姓 
+                        <input name="familylastname1" type="text" id="familylastname1" /></td>
+                      <td align="left" class="style12">名 
+                        <input name="familyfirstname1" type="text" id="familyfirstname1" /></td>
+                    </tr>
+                    <tr> 
+                      <td align="left" valign="top" class="style12">出生日期(日/月/年): 
+                        <input name="familybirthday1" type="text" id="familybirthday1" /></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                  </table></td>
+                <td bgcolor="#E1E1E1">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#E1E1E1">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#E1E1E1">&nbsp;</td>
+                <td bgcolor="#E1E1E1">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#D1D1D1">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#D1D1D1">&nbsp;</td>
+                <td bgcolor="#D1D1D1">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#D1D1D1">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#D1D1D1"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      
+                  <td width="284" height="25" align="left" class="style16">家庭計劃 
+                    申請人乙</td>
+                      <td width="316" height="25" align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12">英文姓名: 姓 
+                        <input name="familylastname2" type="text" id="familylastname2" /></td>
+                      <td align="left" class="style12">名 
+                        <input name="familyfirstname2" type="text" id="familyfirstname2" /></td>
+                    </tr>
+                    <tr> 
+                      <td align="left" valign="top" class="style12">出生日期(日/月/年): 
+                        <input name="familybirthday2" type="text" id="familybirthday2" /></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td valign="top">&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table></td>
+                <td bgcolor="#D1D1D1">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+                <td align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td colspan="2" align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#D6E8E9">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#D6E8E9"><table width="600" height="60" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td colspan="2" align="left" class="style12">信用咭號碼: 
+                        <input name="creditcard_no" type="text" id="creditcard_no" size="16" /></td>
+                      <td width="234" align="left" class="style12">卡主姓名: 
+                        <input name="name_on_card" type="text" id="name_on_card" /></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2" align="left" class="style12">信用咭類別: 
+                        <select name="creditcard_type" size="1" id="creditcard_type">
+                          <option value="amex" selected="selected">AMEX</option>
+                          <option value="mastercard">Master Card</option>
+                          <option value="visa">Visa</option>
+                        </select></td>
+                      <td align="left" class="style12">到期日: 
+                        <input name="expirydate" type="text" id="expirydate" /></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2" align="left" class="style12"><br /></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td width="170" align="left" class="style12">請確認會員類別：<br /></td>
+                      <td width="196" align="left" class="style12"><select name="memberplan_confirm" id="memberplan_confirm">
+                          <option>基本會員 AU$ 45</option>
+                          <option>標準會員 AU$110</option>
+                          <option>高級會員 AU$130</option>
+                          <option>特級會員 AU$185</option>
+                        </select></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12">請加上Alert Diver的訂閱費用：<br /></td>
+                      <td align="left" class="style12"><select name="AD_confirm" id="AD_confirm">
+                          <option value="AD_Sub_yes">訂閱費 AU$25</option>
+                          <option value="AD_Sub_no" selected="selected">不訂閱 AU$0</option>
+                        </select></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12">附加家庭成員旅途援助保障：<br /></td>
+                      <td align="left" class="style12"><select name="family_member_confirm" id="family_member_confirm">
+                          <option value="0" selected="selected">不附加 AU$0</option>
+                          <option value="1">一位 AU$25</option>
+                          <option value="2">兩位 AU$50</option>
+                        </select></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12">選用「快速辦理」申請會藉</td>
+                      <td align="left" class="style12"><select name="quick_confirm" id="quick_confirm">
+                          <option value="fast_app_yes">選用 AU$10</option>
+                          <option value="fast_app_no" selected="selected">不選用 
+                          AU$0</option>
+                        </select></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="left" class="style12"><div align="right"><strong>總額：<br />
+                          </strong> </div></td>
+                      <td align="left" class="style12"><input name="amount" type="text" id="amount" size="8" />
+                    <strong><br />
+                        </strong></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      
+                  <td colspan="2" align="center" class="style12"><strong>（請自行計算填寫確認）</strong></td>
+                      <td align="left" class="style12">&nbsp;</td>
+                    </tr>
+                  </table></td>
+                <td bgcolor="#D6E8E9">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+                <td colspan="3" align="center" valign="top" bgcolor="#EDFDFE">&nbsp;</td>
+                <td bgcolor="#EDFDFE">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+                <td colspan="3" align="center" valign="top"><table width="600" height="40" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td width="264" align="right" valign="bottom"><input name="submit" type="submit" id="submit" value="提交" /></td>
+                      <td width="31" valign="bottom">&nbsp;</td>
+                      <td width="305" align="left" valign="bottom"><input name="reset" type="reset" id="reset" value="清除" /></td>
+                    </tr></form>
+                  </table></td>
+                <td>&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td>&nbsp;</td>
+        </tr>
+        <tr> 
+          <td valign="top" background="images/dot_v.gif"><img src="images/space.gif" width="1" height="1" /></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#F5F5F5"><table width="700" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="48">&nbsp;</td>
+                <td width="603">&nbsp;</td>
+                <td width="49">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+                <td align="left"><p><span class="style12" 
+style="FONT-FAMILY: 新細明體" lang="ZH-TW" xml:lang="ZH-TW">會員資格是一年制，即從生效日期起連續為期</span><span class="style12" 
+style="FONT-FAMILY: 新細明體">12<span 
+lang="ZH-TW" xml:lang="ZH-TW">個月。會藉收費和保費是以澳元計算</span>(AUD$) <span lang="ZH-TW" xml:lang="ZH-TW">。您的會員資格和保險須經</span>潛水人警報網絡亞太區分部<span lang="ZH-TW" xml:lang="ZH-TW">審理、批核及確認收費才生效。付款須連同申請表一併遞交，審理過程通常需</span>1<span 
+lang="ZH-TW" xml:lang="ZH-TW">至</span>3<span lang="ZH-TW" xml:lang="ZH-TW">星期，唯申請「快速</span></span><span class="style12" 
+style="FONT-FAMILY: mingliu; mso-ascii-font-family: 新細明體; mso-hansi-font-family: 新細明體" lang="ZH-TW" xml:lang="ZH-TW">辦</span><span class="style12" style="FONT-FAMILY: 新細明體" 
+lang="ZH-TW" xml:lang="ZH-TW">理」除外。</span></p>
+                  <p><span class="style12" 
+style="FONT-FAMILY: 新細明體"> <O:P></O:P> </span> <span class="style12" 
+style="line-height: 20px; color: #000000;" lang="ZH-TW" xml:lang="ZH-TW">如你已訂好旅程日期，應確保您的會員資格在出發前己辦妥。</span><span class="style12" 
+style="line-height: 20px; color: #000000;"> <O:P></O:P> </span> </p>
+                  <p><span class="style12" 
+style="FONT-FAMILY: 新細明體" lang="ZH-TW" xml:lang="ZH-TW">緊急撤離服務、會員權益和保險保障，須經由</span><span class="style12" 
+style="FONT-FAMILY: 新細明體">潛水人警報網絡亞太區分部<span 
+lang="ZH-TW" xml:lang="ZH-TW">簽發會員資格才生效。申請人須以真誠，並完整填妥申請書。申請人如在</span>潛水人警報網絡亞太區分部<span 
+lang="ZH-TW" xml:lang="ZH-TW">簽發會員資格前或審核時，即保障生效</span></span><span class="style12" 
+style="FONT-FAMILY: 'MS Mincho'; mso-ascii-font-family: 新細明體; mso-hansi-font-family: 新細明體" lang="ZH-TW" xml:lang="ZH-TW">前</span><span class="style12" 
+style="FONT-FAMILY: 新細明體" 
+lang="ZH-TW" xml:lang="ZH-TW">，曾經參與潛水及其他活動，如其後因此</span><span class="style12" 
+style="FONT-FAMILY: 新細明體">(<span lang="ZH-TW" xml:lang="ZH-TW">直接或間接地</span>)<span 
+lang="ZH-TW" xml:lang="ZH-TW">而引致受傷，日後申請人</span>(<span lang="ZH-TW" xml:lang="ZH-TW">或代表人</span>)<span 
+lang="ZH-TW" xml:lang="ZH-TW">為此所提出之索償申請，將不會給予提供撤離服務、醫療</span>, <span 
+lang="ZH-TW" xml:lang="ZH-TW">輔助醫療或其他創傷等賠償。</span></span></p>
+                  <p><span class="style12" 
+style="FONT-FAMILY: 新細明體"> <O:P></O:P> </span> <span class="style12" lang="ZH-TW" xml:lang="ZH-TW">我宣稱以上所提供之資科是真</span><span class="style12" 
+style="mso-bidi-font-family: 細明體" lang="ZH-TW" xml:lang="ZH-TW">實無訛，以及上列之申請人均為亞太區內之國民或長期居留人仕 
+                    </span><span class="style12" 
+style="mso-bidi-font-family: 細明體">(<span 
+lang="ZH-TW" xml:lang="ZH-TW">澳洲除外</span>)<span lang="ZH-TW" xml:lang="ZH-TW">。</span></span><span class="style12" 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 新細明體; mso-bidi-font-family: 細明體"> <O:P></O:P> 
+                    </span></p></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

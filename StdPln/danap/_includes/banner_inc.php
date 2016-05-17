@@ -1,0 +1,1 @@
+<img class="banner" src="<?php $_GET['type']=0; include 'banner.php'; ?>" width="955" height="330">

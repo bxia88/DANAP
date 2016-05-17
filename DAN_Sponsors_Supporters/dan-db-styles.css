@@ -1,0 +1,18 @@
+
+table.blist{
+text-align: left;
+margin:0px;
+padding:0px;
+margin-bottom:10px;
+}
+.bname {
+font-size:15px;
+font-weight:bold;
+color: #CC3300;
+padding:0px;
+margin:0px;
+margin-top:0px;
+}
+.right {
+text-align:right;
+}

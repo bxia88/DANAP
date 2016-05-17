@@ -1,0 +1,114 @@
+	
+	#mainarea img
+	
+		{
+		position:absolute;
+		top:350px;
+		left:40px;
+		margin-top:10px;
+		}
+			
+	
+	#welcome
+	{
+		position:absolute;
+
+		width:500px;;
+		background:white;
+		top:240px;
+		left:40px;
+		text-align:justify;
+
+		border-right-style:solid;
+		border-bottom-style:solid;
+		border-width:1px;
+		
+	}
+	
+	#welcome h3
+		{ 
+			padding-left:10px;
+			padding-top:10px;
+			margin:0;
+			font-family:"verdana","Verdana";
+			font-size:18px;
+			color:#3953A4;
+			text-align:left;
+		}
+
+	#welcome p
+		{ 
+			padding-left:10px;
+			padding-bottom:10px;
+			margin:0;
+			padding-right:10px;
+		}
+			
+	
+
+	#intro
+		
+		{
+		position:absolute;
+	
+		width:400px;
+		background:white;
+		top:240px;
+		left:575px;
+		text-align:justify;
+		border-bottom-style:solid;
+		border-left-style:solid;
+		border-width:1px;
+		}
+
+	#intro p
+		{
+		margin:0;
+		padding:10px;
+		}
+	#intro h3
+		{
+		margin:0;
+		padding:10px;
+		font-family:"verdana","Verdana";
+		font-size:18px;
+		color:#3953A4;
+		}
+
+
+
+#disclaimer
+		
+		{
+		position:absolute;
+	
+		width:500px;
+		background:white;
+		top:730px;
+		left:40px;
+		text-align:justify;
+		border-bottom-style:solid;
+		border-right-style:solid;
+		border-width:1px;
+		}
+
+	#disclaimer p
+		{
+		margin:0;
+		padding:10px;
+		}
+
+	
+	#disclaimer h3
+		{
+		font-family:"verdana","Verdana";
+		margin:0;
+		padding:10px;
+		font-size:16px;
+		color:#3953A4;
+		}
+	.emphasis
+	{
+		color:red;
+		font-weight:bold;
+	}	

@@ -1,0 +1,1 @@
+This application is for long-term   residents/Nationals of the Asia-Pacific region only. If you reside in  Australia <a href="http://www.danasiapacific.org/main/membershipform_i.php">click here</a> to apply using the correct application. If you do not live within the Asia-Pacific region you will need to apply via the DAN facility within your Region.<br /><br />

@@ -1,0 +1,41 @@
+
+dl {
+	line-height: 170%;
+	margin-bottom: 20px
+}
+
+dl,dt,dd {
+	padding: 0;
+	margin: 0
+}
+
+#content div.faq_contaner h2 {
+	color: #CC3300;
+}
+
+.faqs {
+	padding-top: 20px
+}
+
+.faqs dt {
+	font-weight: bold;
+	background: url(../_images/q.gif) 0 4px no-repeat;
+	padding: 3px 0 15px 30px;
+	position: relative;
+}
+
+.faqs dt:hover {
+	cursor: pointer
+}
+
+.faqs dd {
+	background: url(../_images/a.gif) 0 2px no-repeat;
+	padding: 0 0 25px 30px;
+	position: relative;
+	color: #333
+}
+
+.faqs .hover {
+	color: #990000;
+	text-decoration: underline
+}

@@ -1,0 +1,128 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<package unique-identifier = "{D05D0A82-DDF6-4A20-805F-E2EA86B1D165}">
+   <metadata>
+      <x-metadata>
+         <meta name = "EbooksysVersion" content = "1.50"/>
+         <meta name = "page_content_size" content = "756 990"/>
+         <meta name = "flipping_sound" content = "yes"/>
+         <meta name = "background_music" content = "yes"/>
+         <meta name = "audio_file" content = "AD20150624_opf_files/AD20150624_audio_.xml"/>
+         <meta name = "standard_direction" content = "yes"/>
+         <meta name = "autoflip" content = "no direction:forward atend:repeat interval:3000ms"/>
+         <meta name = "bookmark" content = "type:text autosize:no shape:roundrect 3deffect:yes gradienteffect:yes slope:-8 gap:3"/>
+      </x-metadata>
+   </metadata>
+   <manifest>
+      <item id = "item0" href = "AD20150624_opf_files/DAN EMAG_1.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item1" href = "AD20150624_opf_files/DAN EMAG_2.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item2" href = "AD20150624_opf_files/DAN EMAG_3.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item3" href = "AD20150624_opf_files/DAN EMAG_4.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item4" href = "AD20150624_opf_files/DAN EMAG_5.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item5" href = "AD20150624_opf_files/DAN EMAG_6.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item6" href = "AD20150624_opf_files/DAN EMAG_7.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item7" href = "AD20150624_opf_files/DAN EMAG_8.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item8" href = "AD20150624_opf_files/DAN EMAG_9.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item9" href = "AD20150624_opf_files/DAN EMAG_10.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item10" href = "AD20150624_opf_files/DAN EMAG_11.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item11" href = "AD20150624_opf_files/DAN EMAG_12.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item12" href = "AD20150624_opf_files/DAN EMAG_13.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item13" href = "AD20150624_opf_files/DAN EMAG_14.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item14" href = "AD20150624_opf_files/DAN EMAG_15.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item15" href = "AD20150624_opf_files/DAN EMAG_16.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item16" href = "AD20150624_opf_files/DAN EMAG_17.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item17" href = "AD20150624_opf_files/DAN EMAG_18.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item18" href = "AD20150624_opf_files/DAN EMAG_19.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item19" href = "AD20150624_opf_files/DAN EMAG_20.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item20" href = "AD20150624_opf_files/DAN EMAG_21.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item21" href = "AD20150624_opf_files/DAN EMAG_22.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item22" href = "AD20150624_opf_files/DAN EMAG_23.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item23" href = "AD20150624_opf_files/DAN EMAG_24.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item24" href = "AD20150624_opf_files/DAN EMAG_25.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item25" href = "AD20150624_opf_files/DAN EMAG_26.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item26" href = "AD20150624_opf_files/DAN EMAG_27.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item27" href = "AD20150624_opf_files/DAN EMAG_28.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item28" href = "AD20150624_opf_files/DAN EMAG_29.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item29" href = "AD20150624_opf_files/DAN EMAG_30.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item30" href = "AD20150624_opf_files/DAN EMAG_31.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item31" href = "AD20150624_opf_files/DAN EMAG_32.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item32" href = "AD20150624_opf_files/DAN EMAG_33.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+      <item id = "item33" href = "AD20150624_opf_files/DAN EMAG_34.swf" source = "pdf" media-type = "application/x-shockwave-flash"/>
+   </manifest>
+   <spine>
+      <itemref idref = "item0" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_1.jpg" numberingdescription = "1"/>
+      <itemref idref = "item1" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_2.jpg" numberingdescription = "2"/>
+      <itemref idref = "item2" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_3.jpg" numberingdescription = "3"/>
+      <itemref idref = "item3" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_4.jpg" numberingdescription = "4"/>
+      <itemref idref = "item4" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_5.jpg" numberingdescription = "5"/>
+      <itemref idref = "item5" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_6.jpg" numberingdescription = "6"/>
+      <itemref idref = "item6" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_7.jpg" numberingdescription = "7"/>
+      <itemref idref = "item7" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_8.jpg" numberingdescription = "8"/>
+      <itemref idref = "item8" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_9.jpg" numberingdescription = "9"/>
+      <itemref idref = "item9" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_10.jpg" numberingdescription = "10"/>
+      <itemref idref = "item10" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_11.jpg" numberingdescription = "11"/>
+      <itemref idref = "item11" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_12.jpg" numberingdescription = "12"/>
+      <itemref idref = "item12" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_13.jpg" numberingdescription = "13"/>
+      <itemref idref = "item13" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_14.jpg" numberingdescription = "14"/>
+      <itemref idref = "item14" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_15.jpg" numberingdescription = "15"/>
+      <itemref idref = "item15" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_16.jpg" numberingdescription = "16"/>
+      <itemref idref = "item16" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_17.jpg" numberingdescription = "17"/>
+      <itemref idref = "item17" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_18.jpg" numberingdescription = "18"/>
+      <itemref idref = "item18" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_19.jpg" numberingdescription = "19"/>
+      <itemref idref = "item19" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_20.jpg" numberingdescription = "20"/>
+      <itemref idref = "item20" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_21.jpg" numberingdescription = "21"/>
+      <itemref idref = "item21" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_22.jpg" numberingdescription = "22"/>
+      <itemref idref = "item22" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_23.jpg" numberingdescription = "23"/>
+      <itemref idref = "item23" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_24.jpg" numberingdescription = "24"/>
+      <itemref idref = "item24" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_25.jpg" numberingdescription = "25"/>
+      <itemref idref = "item25" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_26.jpg" numberingdescription = "26"/>
+      <itemref idref = "item26" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_27.jpg" numberingdescription = "27"/>
+      <itemref idref = "item27" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_28.jpg" numberingdescription = "28"/>
+      <itemref idref = "item28" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_29.jpg" numberingdescription = "29"/>
+      <itemref idref = "item29" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_30.jpg" numberingdescription = "30"/>
+      <itemref idref = "item30" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_31.jpg" numberingdescription = "31"/>
+      <itemref idref = "item31" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_32.jpg" numberingdescription = "32"/>
+      <itemref idref = "item32" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_33.jpg" numberingdescription = "33"/>
+      <itemref idref = "item33" thumbnail = "AD20150624_opf_files/thumbnail/tn_DAN EMAG_34.jpg" numberingdescription = "34"/>
+   </spine>
+   <authoring name = "FlipViewer Xpress Creator" version = "2.1.0.156" time = "2015-06-24-11-16-GMT10"/>
+   <drm_enabled version = "3.5.0" bookid = "38a4a052017f7d190d97cc3bf33f9501" authorid = "divers_alert_network_asia_pacific">
+      <publisher name = "divers_alert_network_asia_pacific"/>
+      <modifiedby name = "FlipViewer Xpress Creator" version = "2.1.0.156" time = "2015-06-24-11-16-GMT10"/>
+      <offline package = "yes">
+         <exe exists = "yes" url = "offline/AD20150624.exe"/>
+         <zip exists = "yes" url = "offline/AD20150624.zip"/>
+      </offline>
+      <certificate type = "2" url = "AD20150624_opf_files/AD20150624.xml" alternative = "http://asp16.digitalflip.com/drm2/getcert" trial = "no"/>
+      <searchabletext url = "AD20150624_opf_files/AD20150624_text_.xml"/>
+      <advertisingserver allow = "no"/>
+      <customized allow = "yes">
+         <ibutton show = "yes" click = "http://www.flipviewer.com"/>
+         <aboutbox allow = "yes" url = "http://www.flipviewer.com" company = "" title = "" logo = "" author = "" tel = "" address = ""/>
+         <bookmark show = "yes"/>
+         <search show = "yes"/>
+         <help show = "yes"/>
+         <branding show = "yes" url = "http://www.danap.org" logo = ""/>
+         <shadow show = "yes"/>
+         <shadowmargin show = "yes"/>
+         <flipindicator show = "yes"/>
+         <sendemail show = "yes" url = "http://asp15.digitalflip.com/fvxmail63ag/"/>
+         <thumbnail show = "yes"/>
+         <pagetips show = "yes"/>
+         <toolbartips show = "yes"/>
+         <pagedescription show = "yes"/>
+         <note show = "yes"/>
+         <winframe show = "yes"/>
+         <saveas show = "yes" single = "yes" wholebook = "AD20150624_opf_files/pdfs/AD20150624__.pdf"/>
+         <highlight show = "yes"/>
+         <settings show = "yes"/>
+         <autoflipping show = "yes"/>
+         <watermark show = "no"/>
+         <advertisingpage show = "no"/>
+         <zoompage show = "yes" factor = "150"/>
+         <skin show = "no"/>
+         <iframelink show = "no" url = "AD20150624_opf_files/iframe.csv"/>
+      </customized>
+      <digital_signature content = "bb54b3dd1fdad985e127f4adb37a6b57" checksum = "71436B7767307873614D5445536437682B592B7966335547677033446748696B44344E4E433442557649453D"/>
+   </drm_enabled>
+</package>

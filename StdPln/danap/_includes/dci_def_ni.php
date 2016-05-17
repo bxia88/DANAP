@@ -1,0 +1,4 @@
+<p align="justify"><strong>Predisposing Medical Condition</strong> means any medical condition existing prior to the effective date of insurance that may predispose the Member to a diving accident.  Such Predisposing Medical Conditions include, but are not limited to, epilepsy, diabetes, any other condition that could cause a person to become unconscious underwater, asthma, pulmonary disease or injury, cardiovascular disease, cardiac conditions, previous decompression illness and major surgery.</p>
+<p align="justify"><strong>Pre-existing Condition</strong> means a medical condition that existed and for which diagnosis, treatment and/or medication was received within the 12 months immediately preceding the effective date of insurance.</p>
+  
+<p><strong><em>* I wish to apply for DAN Asia-Pacific Membership Only and hereby disclose that:.</em></strong></p>

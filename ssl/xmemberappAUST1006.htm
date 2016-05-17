@@ -1,0 +1,435 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>DAN Membership Application</TITLE>
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META http-equiv=Content-Language content=en-us>
+<META content=FrontPage.Editor.Document name=ProgId>
+<STYLE>H2 {
+	FONT-SIZE: 10pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: Arial
+}
+span.boldnote21
+	{color:yellow;
+	font-weight:bold}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') {
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (val<min || max<val) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<P align=center><FONT color=#0099ff size=6>Membership Application Form</FONT> 
+<FONT color=#ff0000>(Australia)</FONT></P>
+<FORM 
+onsubmit="MM_validateForm('Contact_Surname','','R','Contact_first_name','','R','Contact_DOB','','R','Nationality','','R','Card_Number','','R','Card_Expiry','','R','Previous_Medical_DCI','','R');return document.MM_returnValue" 
+action=http://mailgate.server-mail.com/cgi-bin/mailgate method=post><INPUT 
+type=hidden value=info@danasiapacific.org name=recipient><INPUT type=hidden 
+value="Membership Application" name=subject><INPUT type=hidden 
+value=http://www.danasiapacific.org/english/membership/thankyou.htm name=redirect> 
+<P>
+<CENTER><B><FONT color=#ff0000>Thank you for choosing to support dive safety by 
+becoming a DAN member.</FONT></B> <B><FONT color=#0000ff><BR>The fields marked 
+in bold* below must be completed or the application cannot be processed. 
+<BR></FONT></B><FONT size=2>All applicants for membership and insurance must be 
+Australian Nationals or long term residents of at least 12 
+months.</FONT><B><FONT color=#ff0000><BR>&nbsp;</FONT></B></CENTER>
+<P></P><A name=top></A>
+<TABLE cellSpacing=2 cellPadding=0 width=800 align=center bgColor=#c0c0c0 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%">New / renewing member? <SELECT name=New_or_old_member> 
+        <OPTION selected>New Member<OPTION>Renewing Member</OPTION></SELECT>&nbsp; 
+      If renewing, enter your member number.<INPUT maxLength=256 size=17 
+      name=Old_member_number></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=2 cellPadding=0 width=800 align=center bgColor=#808080 
+border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=center align=middle width="100%">
+      <P>
+      <CENTER><B>*Surname</B>: <INPUT maxLength=256 size=57 
+      name=Contact_Surname> </CENTER></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=2 cellPadding=0 width=800 align=center bgColor=#c0c0c0 
+border=0>
+  <TBODY>
+  <TR>
+    <TD align=right width="15%"><B>*First Name:</B></TD>
+    <TD width="35%"><INPUT name=Contact_first_name size="20"> </TD>
+    <TD align=right width="25%">Other Name:</TD>
+    <TD width="25%"><INPUT name=Contact_other_name size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%"><B>*Residential Address</B>:</TD>
+    <TD width="35%"><INPUT name=Contact_StreetAddress size="20"> </TD>
+    <TD align=right width="25%"><B>*State/Prov</B>:</TD>
+    <TD width="25%"><INPUT name=Contact_state size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%"><B>*City:</B></TD>
+    <TD width="35%"><INPUT name=Contact_City size="20"> </TD>
+    <TD align=right width="25%">Zip/Post Code:</TD>
+    <TD width="25%"><INPUT name=Contact_zipcode size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%"><B>*Country:</B></TD>
+    <TD width="35%"><INPUT name=Contact_Country size="20"> </TD>
+    <TD align=right width="25%"><B>*Date of Birth</B> (DD/MM/YY)</TD>
+    <TD width="25%"><INPUT name=Contact_DOB size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%">Home Phone:</TD>
+    <TD width="35%"><INPUT name=Contact_HomePhone size="20"> </TD>
+    <TD align=right width="25%">Work Phone:</TD>
+    <TD width="25%"><INPUT name=Contact_Workphone size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%">Fax:</TD>
+    <TD width="35%"><INPUT name=Contact_Fax size="20"> </TD>
+    <TD align=right width="25%"><B>*E-mail</B>:</TD>
+    <TD width="25%"><INPUT name=Contact_Email size="20"> </TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=800 align=center bgColor=#808080 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="15%" bgColor=#c0c0c0>
+      <P align=right><B>*Nationality</B>:</P></TD>
+    <TD width="35%" bgColor=#c0c0c0><INPUT name=Nationality size="20"> </TD>
+    <TD width="25%" bgColor=#c0c0c0>Other current health/injury/travel 
+    insurer:</TD>
+    <TD width="25%" bgColor=#c0c0c0><INPUT name=Other_insurer size="20"> </TD></TR>
+  <TR>
+    <TD width="100%" colSpan=4>
+      <P>
+      <CENTER><INPUT type=radio CHECKED value=Individual 
+      name=Individ_family>Individual Membership (AUD$66) <INPUT type=radio 
+      value=Family name=Individ_family><a href="http://www.danasiapacific.org/English/Membership/member-benefits%20P1.html">Family Membership</a> 
+      (AUD$93.50)</CENTER></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=2 cellPadding=0 width=800 align=center bgColor=#c0c0c0 
+border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle width="100%" bgColor=#ff0000 colSpan=2><B><FONT 
+      color=#ffffff size=3>Do You, or a Family Member listed below, have a 
+      medical condition, previous injury or previous DCI that needs to be 
+      declared? If YES, please
+    <a href="http://www.danasiapacific.org/English/Membership/docs/medical%20declaration.pdf">click 
+      here to download a declaration form </a>and send it to us.<BR></FONT><FONT 
+      size=3>*Yes/No</FONT><FONT color=#ffffff size=3> <A href="http:///"><INPUT 
+      maxLength=3 size=5 name=Previous_Medical_DCI> </A></FONT></B></TD></TR>
+  <TR>
+    <TD width="100%" colSpan=2>
+      <P>
+      <CENTER><B>*Credit Card Number:</B> <INPUT size=39 
+      name=Card_Number>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</CENTER></TD></TR>
+  <TR>
+    <TD width="50%">
+      <P align=right><B>*Expiry Date</B> (MM/YY): <INPUT size=15 
+      name=Card_Expiry> </P></TD>
+    <TD width="50%">Card Type: <SELECT name=Card_Type> <OPTION 
+        selected>AMEX<OPTION>Master 
+  Card<OPTION>Visa</OPTION></SELECT></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=2 cellPadding=0 width=800 align=center bgColor=#808080 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="50%">
+      <P>
+      <CENTER>Check this box for "fast processing" <BR>(AUD$11 fee.
+      <a href="http://www.danasiapacific.org/English/membership/FastProcess.html">Conditions&nbsp; 
+      apply</a>.)<BR><INPUT type=checkbox value=Yes 
+    name=Fast_process></CENTER></TD>
+    <TD width="50%">
+      <P>
+      <CENTER>&nbsp;</CENTER></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=2 cellPadding=0 width=800 align=center bgColor=#c0c0c0 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%">
+      <P>
+      <CENTER>Sponsors/Promoters please enter your Sponsor/Promoter number here: 
+      <INPUT size=18 name=Sponsor_Number></CENTER></TD></TR></TBODY></TABLE>
+<P>
+<CENTER><B><FONT color=#ff0000><SUB>Below please provide applicants' names, 
+birthdates and any<I> <U>optional additional</U></I> dive injury insurance 
+requirements</SUB><BR></FONT><FONT color=#0000ff><I>(These insurances, if 
+selected, <U>are in addition to Membership</U> and cannot be purchased 
+separately)</I></FONT></B></CENTER>
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=800 align=center bgColor=#c0c0c0 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%" bgColor=#ff0000 colSpan=2>
+      <P>
+      <CENTER><B>Primary Applicant</B> <B>Insurance Requirements 
+  </B></CENTER></TD></TR>
+  <TR>
+    <TD width="50%">Last Name: <INPUT size=23 name=Primary_member_last></TD>
+    <TD align=right width="50%">First Name: <INPUT size=23 
+      name=Primary_member_first></TD></TR>
+  <TR>
+    <TD width="50%">Date of Birth: <INPUT size=10 value=DD/MM/YY 
+      name=Primary_member_DOB></TD>
+    <TD align=right width="50%">No insurance required: <INPUT type=radio 
+      CHECKED value=None name=Primary_member_insurance></TD></TR>
+  <TR>
+    <TD width="50%">Standard (AUD$66): <INPUT type=radio value="Standard $66" 
+      name=Primary_member_insurance> </TD>
+    <TD align=right width="50%">Master (AUD$88): <INPUT type=radio 
+      value="Master $88" name=Primary_member_insurance></TD></TR>
+  <TR>
+    <TD width="50%">Preferred Plan (AUD$143): <INPUT type=radio 
+      value="Preferred plan ($143)" name=Primary_member_insurance></TD>
+    <TD align=right width="50%">&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE height=153 cellSpacing=0 cellPadding=0 width=800 align=center 
+bgColor=#808080 border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%" bgColor=#c0c0c0 colSpan=2 height=21>
+      <DIV align=center>&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD width="100%" bgColor=#ffffff colSpan=2 height=3>&nbsp;</TD></TR>
+  <TR>
+    <TD width="100%" bgColor=#ff0000 colSpan=2 height=21>
+      <P>
+      <CENTER><B>Family Applicant 1 Membership / Insurance 
+      Requirements</B></CENTER></TD></TR>
+  <TR>
+    <TD width="50%" height=25>Last Name: <INPUT size=23 
+      name=Family_member1_last></TD>
+    <TD align=right width="50%" height=25>First Name: <INPUT size=23 
+      name=Family_member1_first></TD></TR>
+  <TR>
+    <TD width="50%" height=25>Date of Birth: <INPUT size=10 value=DD/MM/YY 
+      name=Family_member1_DOB></TD>
+    <TD align=right width="50%" height=25>No insurance required: <INPUT 
+      type=radio CHECKED value=None name=Family_member1_insurance></TD></TR>
+  <TR>
+    <TD width="50%" height=21>Standard (AUD$66): <INPUT type=radio 
+      value="Standard $66" name=Family_member1_insurance></TD>
+    <TD align=right width="50%" height=21>Master (AUD$88): <INPUT type=radio 
+      value="Master $88" name=Family_member1_insurance></TD></TR>
+  <TR>
+    <TD width="50%" height=21>Preferred Plan (AUD$143): <INPUT type=radio 
+      value="Preferred plan ($143)" name=Family_member1_insurance></TD>
+    <TD align=right width="50%" height=21>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=800 align=center bgColor=#c0c0c0 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%" bgColor=#808080 colSpan=2 height=21>
+      <P align=left>&nbsp;</P></TD></TR>
+  <TR>
+    <TD width="100%" bgColor=#ffffff colSpan=2>&nbsp;</TD></TR>
+  <TR>
+    <TD width="100%" bgColor=#ff0000 colSpan=2>
+      <P>
+      <CENTER><B>Family Applicant 2 Membership / Insurance 
+      Requirements</B></CENTER></TD></TR>
+  <TR>
+    <TD width="50%">Last Name: <INPUT size=23 name=Family_member2_last></TD>
+    <TD align=right width="50%">First Name: <INPUT size=23 
+      name=Family_member2_first></TD></TR>
+  <TR>
+    <TD width="50%">Date of Birth: <INPUT size=10 value=DD/MM/YY 
+      name=Family_member2_DOB></TD>
+    <TD align=right width="50%">No insurance required: <INPUT type=radio 
+      CHECKED value=None name=Family_member2_insurance></TD></TR>
+  <TR>
+    <TD width="50%">Standard (AUD$66): <INPUT type=radio value="Standard $66" 
+      name=Family_member2_insurance></TD>
+    <TD align=right width="50%">Master (AUD$88): <INPUT type=radio 
+      value="Master $88" name=Family_member2_insurance></TD></TR>
+  <TR>
+    <TD width="50%">Preferred Plan (AUD$143):<INPUT type=radio 
+      value="Preferred plan ($143)" name=Family_member2_insurance></TD>
+    <TD align=right width="50%">&nbsp;</TD></TR>
+  <TR>
+    <TD width="100%" colSpan=2 height=21>
+      <P align=left>&nbsp;</P></TD></TR></TBODY></TABLE>
+<TABLE width=800 align=center border=1>
+  <TBODY>
+  <TR>
+    <TD bgColor=#ff0000 colSpan=4>
+      <P align=center><B>E X C&nbsp; LU S IV E&nbsp; M E M B E R&nbsp; B O O 
+      K&nbsp; O F F E R <BR>Simply check the box/es below to make your 
+      selection</B><BR><B>
+      <a target="new_window" href="http://www.danasiapacific.org/English/promotions/BookOffer/Website%20Book%20Offers.pdf">Click here to open a new page with more information
+      </a> 
+      </B></P></TD></TR>
+  <TR>
+    <TD bgColor=#808080><B><SPAN lang=EN-US style="FONT-SIZE: 12pt">First Aid 
+      &amp; Emergency Care (4<SUP>th</SUP> Ed) – </SPAN></B><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt">Only $25 including postage in Australia (add $10 
+      for overseas)</SPAN></TD>
+    <TD bgColor=#808080><INPUT type=checkbox value=Yes 
+      name=Book_offer_First_aid_and_Emergency_care></TD>
+    <TD bgColor=#808080><SPAN lang=EN-US><B>BONUS PACKAGE – First Aid &amp; 
+      Emergency Care PLUS Scuba Safety in Australia</B><SPAN 
+      style="FONT-FAMILY: Times New Roman">. Both books only $30 (Including 
+      postage in Australia – add $10 for overseas).</SPAN></SPAN></TD>
+    <TD bgColor=#808080><INPUT type=checkbox value=Yes 
+      name=Book_offer_bonus_package></TD></TR>
+  <TR>
+    <TD bgColor=#808080><B><SPAN lang=EN-US style="FONT-SIZE: 12pt">Diving 
+      Medicine for Scuba Divers – </SPAN></B><SPAN lang=EN-US 
+      style="FONT-SIZE: 12pt">Only $20 including postage in Australia (add $10
+      for overseas)</SPAN></TD>
+    <TD bgColor=#808080><INPUT type=checkbox value=Yes 
+      name=book_offer_Dive_medicine_for_scuba_divers></TD>
+    <TD bgColor=#808080><SPAN style="FONT-SIZE: 12pt"><B>First Aid for 
+      Hazardous Marine Life Injuries</B> - Only $7 including postage in
+      Australia (add $2 for overseas)</SPAN></TD>
+    <TD bgColor=#808080><INPUT type=checkbox value=Yes 
+      name=Book_offer_FA_marine_life></TD></TR></TBODY></TABLE>
+<P><FONT face=Arial color=#000000 size=-2>Membership is annual for 12 months 
+from the date of activation. Membership and premium prices are shown in 
+Australian dollars (AUD$). Your membership and insurance are not activated until 
+acceptance and processing by DAN  AP and confirmation of valid payment. Payment 
+must accompany application. Processing normally takes 1-3 weeks unless a 
+</FONT>
+<a href="http://www.danasiapacific.org/English/membership/FastProcess.html"><FONT face=Arial size=-2>
+Fast Processing</FONT><FONT 
+face=Arial color=#000000 size=-2> </FONT></a><FONT 
+face=Arial color=#000000 size=-2> is requested. Please ensure that your 
+membership is arranged in advance of an anticipated trip. </FONT><B><FONT 
+face=Arial color=#ff0000 size=-2>Availability of services and benefits for 
+evacuation or injury commences on acceptance of an application for membership of 
+DAN  AP. The applicant is required to complete the application fully and in 
+good faith. No cover is provided for any evacuation, medical, paramedical or 
+other injury benefits resulting from or materially contributed to, directly or 
+indirectly by any diving or other activity in which the applicant engaged prior 
+to and up to the time of acceptance of the application by DAN  AP, regardless 
+of the date on which any claim for cover is made by or on behalf of the 
+applicant. NOTE: 10% GST, the relevant stamp duty and administration fee are 
+included in the prices of all memberships and insurances in Australia, as 
+appropriate.</FONT></B></P>
+<TABLE 
+style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" 
+cellSpacing=0 cellPadding=0 width=800 align=center border=1>
+  <TBODY>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 515.7pt; PADDING-TOP: 0cm; BORDER-BOTTOM: medium none" 
+    vAlign=top width=688>
+      <p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+      <span class="boldnote21">
+      <span style="font-family: Arial; color: windowtext">
+      <font style="font-size: 9pt">General Advice Warning</font><font size="1">
+      </font></span>
+      <span style="font-family: Arial; color: windowtext; font-weight: normal">
+      <font size="1">– DAN  AP ABN 67 066 827 129 Authorised Representative of 
+      Marsh Pty Ltd ABN 86 004 651 512 (Corporate Authorised Representative&nbsp; 
+      Licence. No 269340).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span>
+      <span style="font-family: Arial; color: windowtext"><font size="1">&nbsp;<br>
+      </font></span>
+      <span style="font-family: Arial; color: windowtext; font-weight: normal">
+      <font size="1">It is important that you understand and are happy with the 
+      policy DAN  AP can arrange for you. DAN  AP can give you general 
+      information to help you decide but cannot advise you on whether the terms 
+      are specifically appropriate for your individual objectives, financial 
+      situation or needs. DAN  AP therefore recommends that you should 
+      carefully read the relevant Product Disclosure Statement and other 
+      information DAN  AP provides before deciding.&nbsp;</font></span><span style="font-family: Arial; color: black; font-weight: normal"><font size="1"><br>
+      </font></span></span><b><span style="font-family: Arial; color: black">
+      <font style="font-size: 9pt">DISCLOSURE</font><font size="1"><br>
+      </font></span></b><span style="font-family: Arial; color: black">
+      <font size="1">Your duty of disclosure contracts of general insurance 
+      subject to the Insurance Contracts Act<br>
+      Before you enter into a contract of general insurance with an insurer, you 
+      have a duty, under the Insurance Contracts Act 1984, to disclose to the 
+      insurer every matter that you know, or could reasonably be expected to 
+      know, is relevant to the insurer's decision whether to accept the risk of 
+      the insurance and, if so, on what terms.<br>
+      Your duty, however, does not require disclosure of matters: </font></span>
+      <font face="Arial" size="1"><span style="color: black"><br>
+      ·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Arial; color: black"><font size="1">&nbsp;&nbsp;</font></span><span style="font-family: Arial; color: black"><font size="1">that 
+      diminish the risk to be undertaken by the insurer,</font></span><font face="Arial" size="1"><span style="color: black"><br>
+      ·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Arial; color: black"><font size="1">&nbsp;&nbsp;</font></span><span style="font-family: Arial; color: black"><font size="1">that 
+      are of common knowledge, </font></span><font face="Arial" size="1">
+      <span style="color: black"><br>
+      ·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Arial; color: black"><font size="1">&nbsp;&nbsp;</font></span><span style="font-family: Arial; color: black"><font size="1">that 
+      your insurer knows or, in the ordinary course of its business, ought to 
+      know, or </font></span><font face="Arial" size="1">
+      <span style="color: windowtext"><br>
+      ·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Arial; color: windowtext"><font size="1">&nbsp;&nbsp;</font></span><span style="font-family: Arial; color: windowtext"><font size="1">as 
+      to which compliance with your duty is waived by the insurer. </font>
+      </span></p>
+      <p class="notice" style="margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;
+margin-left:0cm;margin-bottom:.0001pt;text-align:justify"><b>
+      <span style="font-family: Arial; color: windowtext">
+      <font style="font-size: 9pt">Non-Disclosure</font></span></b><span style="font-family: Arial; color: windowtext"><font style="font-size: 9pt">
+      </font><font size="1"><br>
+      If you fail to comply with your duty of disclosure, the insurer may be 
+      entitled to reduce its liability under the contract in respect of a claim, 
+      or may cancel the contract. If your non-disclosure is fraudulent, the 
+      insurer may also have the option of avoiding the contract from its 
+      beginning.&nbsp;PLEASE NOTE THAT YOUR DUTY APPLIES ALSO WHEN YOU AMEND, ALTER, 
+      VARY OR ENDORSE A POLICY. </font><b><font size="1"><br>
+      </font><font style="font-size: 9pt">UTMOST GOOD FAITH</font></b></span></p>
+      <p class="notice" style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+      <span style="font-family: Arial; color: windowtext"><font size="1">Every 
+      insurance contract is subject to the doctrine of utmost good faith, which 
+      requires that parties to the contract should act toward each other 
+      honestly and fairly, avoiding any attempt to deceive in assuming and 
+      performing contractual obligations. Failure to do so on the part of the 
+      insured may permit the insurer to refuse to pay a claim or to cancel the 
+      policy.</font></span></TD></TR>
+  <TR style="HEIGHT: 45.7pt">
+    <TD 
+    style="BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 515.7pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 0.5pt solid; HEIGHT: 45.7pt" 
+    vAlign=top width=688>
+      <P class=MsoNormal><B><SPAN style="FONT-FAMILY: Arial">
+      <FONT 
+      style="FONT-SIZE: 8pt; text-transform:uppercase">Product Disclosure Statement 
+      (PDS)</FONT></SPAN></B><SPAN style="FONT-FAMILY: Arial"><FONT 
+      style="FONT-SIZE: 9pt"><BR></FONT></SPAN><FONT face="Arial" size="1">A Product Disclosure Statement 
+      is available for this product.&nbsp;You should obtain a copy of the PDS 
+      and consider the 
+      statement before making any&nbsp; decision about whether to acquire the product.&nbsp; To obtain 
+      a copy of the PDS contact DAN  AP or download 
+      a copy from&nbsp;
+      <a style="COLOR: blue; TEXT-DECORATION: underline" href="http://www.danasiapacific.org/">http://www.danasiapacific.org/</a>.&nbsp; This 
+      product is underwritten and issued by Certain Underwriters at 
+      Lloyds.&nbsp;</FONT></P></TD></TR></TBODY></TABLE>
+<P><B><FONT face=Arial color=#ff0000>DECLARATION</FONT></B><FONT face=Arial 
+color=#ff0000 size=-2><B><BR></B></FONT><FONT face=Arial color=#0066ff 
+size=-2><B><I>By submitting this form the proposed Insured Person states as 
+follows:</I><BR>1. All Applicants for insurance in this form are Australian 
+Nationals or will legally reside in Australia for at least one year.<BR>2. I am 
+the Insured Person and I have read and understood the questions in this form. In 
+particular I understand the Duty of Disclosure to the Insurer as outlined on 
+this website.<BR>3. I acknowledge that the Insurer will rely on the statements 
+in this form and other qualified persons in relation to this insurance in 
+deciding whether to issue cover. I acknowledge that the Insurer will have no 
+liability whatsoever until it accepts this application.<BR>4. I declare that 
+each statement that I make to the Insurer in relation to this insurance and this 
+form is true and correct. I acknowledge that the information requested and 
+contained in this form will be held in accordance with the Privacy Act1988
+(Commonwealth).<br>
+5. I declare that I have read the Product Disclosure Statement and Financial
+Services Guide and agree to the conditions outlined.<br>
+</B></FONT><B><FONT face=Arial color=#ff0000 
+size=-2><BR><BR></FONT></B><BR><INPUT type=submit value=Submit> <INPUT type=reset value="Clear Form"></P>
+<HR align=left>
+</FORM></BODY></HTML>

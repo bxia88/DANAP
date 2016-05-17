@@ -1,0 +1,349 @@
+<HTML><HEAD><TITLE>DAN Membership Application</TITLE>
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content=en-us http-equiv=Content-Language>
+<META content=FrontPage.Editor.Document name=ProgId>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') {
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (val<min || max<val) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</HEAD>
+<BODY>
+<FORM action=http://mailgate.server-mail.com/cgi-bin/mailgate method=post onSubmit="MM_validateForm('Contact_Surname','','R','Contact_first_name','','R','Contact_DOB','','R','Nationality','','R','Card_Number','','R','Card_Expiry','','R','Previous_Medical_DCI','','R');return document.MM_returnValue">
+  <INPUT 
+name=recipient type=hidden value=info@danasiapacific.org>
+  <INPUT name=subject 
+type=hidden value="Membership Application"><INPUT name=redirect type=hidden 
+value=http://www.danasiapacific.org/english/membership/thankyou.htm> 
+<P>
+<CENTER>
+      <B><FONT color=#0066ff size=+3>Membership Application Form </FONT>(outside 
+      Australia)</B>
+</CENTER>
+<P></P>
+<P>
+<CENTER><B><FONT color=#ff0000>Thank you for choosing to support dive safety by 
+becoming a DAN member.</FONT></B><b><font color="#FF0000"><br>
+</font></b><font size="2">All applicants for membership and insurance must be 
+Nationals of the Asia-Pacific or long term residents of at least 3 months.</font><b><font color="#FF0000"><br>
+</font><font color="#0000FF">The fields marked in bold* below must be completed 
+or the application cannot be processed. </font></b></CENTER>
+<P></P><A name=top></A>
+  <TABLE bgColor=#c0c0c0 border=0 cellPadding=0 cellSpacing=2 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD width="100%">New / renewing member? <SELECT name=New_or_old_member> 
+        <OPTION selected>New Member<OPTION>Renewing Member</OPTION></SELECT>&nbsp; 
+      If renewing, enter your member number.<INPUT maxLength=256 
+      name=Old_member_number size=17></TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#808080 border=0 cellPadding=0 cellSpacing=2 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD width="100%">
+      <P>
+      <CENTER>
+            <b>*Surname</b>: 
+            <INPUT maxLength=256 name=Contact_Surname 
+      size=57></CENTER></TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#c0c0c0 border=0 cellPadding=0 cellSpacing=2 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD align=right width="15%"><b>*First Name</b>:</TD>
+    <TD 
+      width="35%">
+<INPUT 
+      name=Contact_first_name size="20"> </TD>
+    <TD align=right width="25%">Other Name:</TD>
+    <TD width="25%"><INPUT name=Contact_other_name size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%"><b>*Residential Address</b>:</TD>
+    <TD 
+      width="35%">
+<INPUT 
+      name=Contact_StreetAddress size="20"> </TD>
+    <TD align=right width="25%"><b>*State/Prov:</b></TD>
+    <TD width="25%"><INPUT name=Contact_state size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%"><b>*City:</b></TD>
+    <TD 
+      width="35%">
+<INPUT 
+      name=Contact_City size="20"> </TD>
+    <TD align=right width="25%">Zip/Post Code:</TD>
+    <TD width="25%"><INPUT name=Contact_zipcode size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%"><b>*Country</b>:</TD>
+    <TD 
+      width="35%">
+<INPUT 
+      name=Contact_Country size="20"> </TD>
+      <TD align=right width="25%"><b>*Date of Birth</b> (DD/MM/YY)</TD>
+    <TD 
+      width="25%">
+        <INPUT 
+      name=Contact_DOB size="20">
+         </TD></TR>
+  <TR>
+    <TD align=right width="15%">Home Phone:</TD>
+    <TD width="35%"><INPUT name=Contact_HomePhone size="20"> </TD>
+    <TD align=right width="25%">Work Phone:</TD>
+    <TD width="25%"><INPUT name=Contact_Workphone size="20"> </TD></TR>
+  <TR>
+    <TD align=right width="15%">Fax:</TD>
+    <TD width="35%"><INPUT name=Contact_Fax size="20"> </TD>
+    <TD align=right width="25%"><b>*E-mail</b>:</TD>
+    <TD 
+      width="25%">
+<INPUT 
+      name=Contact_Email size="20"> </TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#808080 border=0 cellPadding=0 cellSpacing=0 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD bgColor=#c0c0c0 width="15%">
+      <P align=right><b>*Nationality:</b></P></TD>
+      <TD bgColor=#c0c0c0 width="25%">
+<INPUT name=Nationality size="20"> </TD>
+      <TD bgColor=#c0c0c0 width="39%">Other current health/injury/travel insurer:</TD>
+      <TD bgColor=#c0c0c0 width="21%"> 
+        <INPUT name=Other_insurer size="20"> </TD></TR>
+  <TR>
+      <TD colSpan=4> 
+        <P>
+      <CENTER><INPUT CHECKED name=Individ_family type=radio 
+      value=Individual>Individual Membership (AUD$60) <INPUT name=Individ_family 
+      type=radio value=Family><a href="http://www.danasiapacific.org/English/membership/member-benefits%20P1.html">Family Membership</a> 
+      (AUD$85)</CENTER></TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#c0c0c0 border=0 cellPadding=0 cellSpacing=2 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD colSpan=2 width="100%" bgcolor="#FF0000">
+      <p align="center"><b><font color="#FFFFFF" size="3">Do You, or a Family
+        Member listed below, have a medical condition, previous injury or
+        previous DCI <br>
+      that needs to be declared? If YES, please
+      <a href="http://www.danasiapacific.org/English/docs/medical%20declaration.pdf">click here to 
+      download a declaration form</a> and send it to us.<br>
+        </font><font size="3">*Yes/No</font><font color="#FFFFFF" size="3"> <a href="http://"><input type="text" name="Previous_Medical_DCI" size="5" maxlength="3"></a></font></b></TD></TR>
+  <TR>
+    <TD colSpan=2 width="100%">
+      <P>
+      <CENTER><b>*Credit Card Number:</b> <INPUT name=Card_Number 
+      size=39>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</CENTER></TD></TR>
+  <TR>
+    <TD width="50%">
+        <P align=right><b>*Expiry Date</b> (MM/YY): 
+          <INPUT name=Card_Expiry size=15>
+        </P></TD>
+    <TD width="50%">Card Type: <SELECT name=Card_Type> <OPTION 
+        selected>AMEX<OPTION>Master 
+  Card<OPTION>Visa</OPTION></SELECT></TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#808080 border=0 cellPadding=0 cellSpacing=2 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD width="397">
+      <P>
+      <CENTER>Check this box for &quot;fast processing&quot; <br>
+      (AUD$10 fee.
+      <a href="http://www.danasiapacific.org/English/membership/FastProcess.html">Conditions&nbsp; 
+      apply</a>.)<BR><INPUT name=Fast_process type=checkbox 
+    value=Yes></CENTER></TD>
+    <TD width="397">
+      <P>
+      <CENTER>Check this box if outside Australia.<BR>(AUD$10 postage 
+      applies)<BR><INPUT name=Aust_or_foreign_applic type=checkbox 
+      value="Foreign Application"></CENTER></TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#c0c0c0 border=0 cellPadding=0 cellSpacing=2 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD width="100%">
+      <P>
+      <CENTER>Sponsors/Promoters please enter your Sponsor/Promoter number here: 
+      <INPUT name=Sponsor_Number size=18></CENTER></TD></TR></TBODY></TABLE>
+<P>
+<CENTER><b><font color="#ff0000"><sub>Below please provide applicants' names, 
+birthdates and any<i> <u>optional additional</u></i> dive injury insurance 
+requirements</sub><br>
+&nbsp;</font><font color="#0000FF"><i>(These insurances, if selected, <u>are in 
+addition to Membership</u> and cannot be purchased separately)</i></font></b></CENTER>
+<P>
+  <TABLE bgColor=#c0c0c0 border=0 cellPadding=0 cellSpacing=0 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD bgColor=#ff0000 colSpan=2 width="100%">
+      <P>
+      <CENTER><B>Primary Applicant</B> <B>Insurance 
+  Requirements</B></CENTER></TD></TR>
+  <TR>
+    <TD width="50%">Last Name: <INPUT name=Primary_member_last size=23></TD>
+    <TD align=right width="50%">First Name: <INPUT name=Primary_member_first 
+      size=23></TD></TR>
+  <TR>
+      <TD width="50%">Date of Birth: 
+        <INPUT name=Primary_member_DOB size=10 
+      value=DD/MM/YY></TD>
+    <TD align=right width="50%">No insurance required: <INPUT CHECKED 
+      name=Primary_member_insurance type=radio value=None></TD></TR>
+  <TR>
+    <TD width="50%">Standard (AUD$60): <INPUT name=Primary_member_insurance 
+      type=radio value="Standard $60"></TD>
+    <TD align=right width="50%">Master (AUD$75): <INPUT 
+      name=Primary_member_insurance type=radio value="Master $75"></TD></TR>
+  <TR>
+    <TD width="50%">Preferred Plan (AUD$125): <INPUT 
+      name=Primary_member_insurance type=radio value="Preferred plan ($125)"></TD>
+    <TD align=right width="50%">&nbsp;</TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#808080 border=0 cellPadding=0 cellSpacing=0 height=153 
+width="800" align="center">
+    <TBODY> 
+    <TR>
+      <TD bgColor=#c0c0c0 colSpan=2 height=21 width="100%">&nbsp; 
+        
+      </TD>
+    </TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=2 height=3 width="100%">&nbsp;</TD></TR>
+  <TR>
+    <TD bgColor=#ff0000 colSpan=2 height=21 width="100%">
+      <P>
+      <CENTER><B>Family Applicant 1 Membership / Insurance Requirements</B></CENTER></TD></TR>
+  <TR>
+    <TD height=25 width="50%">Last Name: <INPUT name=Family_member1_last 
+      size=23></TD>
+    <TD align=right height=25 width="50%">First Name: <INPUT 
+      name=Family_member1_first size=23></TD></TR>
+  <TR>
+      <TD height=25 width="50%">Date of Birth: 
+        <INPUT name=Family_member1_DOB size=10 
+      value=DD/MM/YY></TD>
+    <TD align=right height=25 width="50%">No insurance required: <INPUT 
+      CHECKED name=Family_member1_insurance type=radio value=None></TD></TR>
+  <TR>
+    <TD height=21 width="50%">Standard (AUD$60): <INPUT 
+      name=Family_member1_insurance type=radio value="Standard $60"></TD>
+    <TD align=right height=21 width="50%">Master (AUD$75): <INPUT 
+      name=Family_member1_insurance type=radio value="Master $75"></TD></TR>
+  <TR>
+    <TD height=21 width="50%">Preferred Plan (AUD$125): <INPUT 
+      name=Family_member1_insurance type=radio value="Preferred plan ($125)"></TD>
+    <TD align=right height=21 width="50%">&nbsp;</TD></TR></TBODY></TABLE>
+  <TABLE bgColor=#c0c0c0 border=0 cellPadding=0 cellSpacing=0 width="800" align="center">
+    <TBODY> 
+    <TR>
+    <TD bgColor=#808080 colSpan=2 height=21 width="100%">
+      <p align="left">&nbsp;</TD></TR>
+  <TR>
+    <TD bgColor=#ffffff colSpan=2 width="100%">&nbsp;</TD></TR>
+  <TR>
+    <TD bgColor=#ff0000 colSpan=2 width="100%">
+      <P>
+      <CENTER><B>Family Applicant 2 Membership / Insurance Requirements</B></CENTER></TD></TR>
+  <TR>
+    <TD width="50%">Last Name: <INPUT name=Family_member2_last size=23></TD>
+    <TD align=right width="50%">First Name: <INPUT name=Family_member2_first 
+      size=23></TD></TR>
+  <TR>
+      <TD width="50%">Date of Birth: 
+        <INPUT name=Family_member2_DOB size=10 
+      value=DD/MM/YY></TD>
+    <TD align=right width="50%">No insurance required: <INPUT CHECKED 
+      name=Family_member2_insurance type=radio value=None></TD></TR>
+  <TR>
+    <TD width="50%">Standard (AUD$60): <INPUT name=Family_member2_insurance 
+      type=radio value="Standard $60"></TD>
+    <TD align=right width="50%">Master (AUD$75): <INPUT 
+      name=Family_member2_insurance type=radio value="Master $75"></TD></TR>
+  <TR>
+    <TD width="50%">Preferred Plan (AUD$125):<INPUT 
+      name=Family_member2_insurance type=radio value="Preferred plan ($125)"></TD>
+    <TD align=right width="50%">&nbsp;</TD></TR>
+  <TR>
+    <TD colSpan=2 height=21 width="100%">
+      <table border="1">
+        <tr>
+            <td colspan="4" bgcolor="#FF0000"> 
+              <p align="center"><b> E X C&nbsp; LU S IV E&nbsp; M E M B E R&nbsp; 
+                B O O K&nbsp; O F F E R <br>
+                Simply check the box/es below to make your selection<br>
+                  <a target="new_window" href="../DAN%20ASIA-PACIFIC%20INTERNET%20SITE%20CURRENT/English/promotions/BookOffer/Website%20Book%20Offers.pdf">Click here to open a new page with more information
+              </a></b>
+            </td>
+        </tr>
+        <tr>
+          <td bgcolor="#808080"><b><span lang="EN-US" style="font-size:12.0pt;">First Aid &amp;
+            Emergency Care (4<sup>th</sup> Ed) &#8211; </span></b><span lang="EN-US" style="font-size:12.0pt;
+">Only $25 including postage in Australia (add $10 for
+            overseas)</span></td>
+          <td bgcolor="#808080"><input type="checkbox" name="Book_offer_First_aid_and_Emergency_care" value="Yes"></td>
+          <td bgcolor="#808080"><span lang="EN-US"><b>BONUS PACKAGE &#8211; First
+            Aid &amp; Emergency Care PLUS Scuba Safety in Australia</b><span style="font-family: Times New Roman;    ">.
+            Both books only $30 (Including postage in Australia &#8211; add $10 for
+            overseas).</span></span></td>
+          <td bgcolor="#808080"><input type="checkbox" name="Book_offer_bonus_package" value="Yes"></td>
+        </tr>
+        <tr>
+          <td bgcolor="#808080"><b><span lang="EN-US" style="font-size:12.0pt;">Diving Medicine for
+            Scuba Divers &#8211; </span></b><span lang="EN-US" style="font-size:12.0pt;">Only
+            $20 including postage in Australia (add $10 for overseas)</span></td>
+          <td bgcolor="#808080"><input type="checkbox" name="book_offer_Dive_medicine_for_scuba_divers" value="Yes"></td>
+          <td bgcolor="#808080"><span style="font-size:12.0pt;
+"><b>First Aid for Hazardous Marine Life Injuries</b>
+            - Only $7 including postage in Australia (add $2 for overseas)</span></td>
+          <td bgcolor="#808080"><input type="checkbox" name="Book_offer_FA_marine_life" value="Yes"></td>
+        </tr>
+      </table>
+      <p align="left">&nbsp;</TD></TR></TBODY></TABLE>
+  <P align="center"><FONT color=#000000 face=Arial size=-2>Membership is annual 
+    for 12 months from the date of activation. Membership and premium prices are 
+    shown in Australian dollars (AUD$). Your membership and insurance are not 
+    activated until acceptance and processing by DAN  AP and confirmation of 
+    valid payment. Payment must accompany application. Processing normally takes 
+    1-3 weeks unless a </FONT><FONT face=Arial size=-2>
+  <a href="http://www.danasiapacific.org/English/membership/FastProcess.html">Fast 
+    Processing</a></FONT><FONT 
+color=#000000 face=Arial size=-2> is requested. Please ensure that your membership 
+    is arranged in advance of an anticipated trip. </FONT><B><FONT 
+color=#ff0000 face=Arial size=-2>Availability of services and benefits for evacuation 
+    or injury commences on acceptance of an application for membership of DAN 
+     
+    AP. The applicant is required to complete the application fully and in good 
+    faith. No cover is provided for any evacuation, medical, paramedical or other 
+    injury benefits resulting from or materially contributed to, directly or indirectly 
+    by any diving or other activity in which the applicant engaged prior to and 
+    up to the time of acceptance of the application by DAN  AP, regardless of 
+    the date on which any claim for cover is made by or on behalf of the applicant.
+    </FONT></B>
+  </P>
+  <P align="center"><b><font face="Arial" size="-2">By submitting this form I 
+  declare that the information provided is true and correct and that all the 
+  Applicants on this form are Nationals or long term residents of the 
+  Asia-Pacific Region (excluding Australia).</font><FONT 
+color=#ff0000 face=Arial size=-2><BR>
+    </FONT></b><BR>
+    <INPUT type=submit value=Submit>
+    <INPUT type=reset value="Clear Form">
+  </P>
+<HR align=left>
+</FORM></BODY></HTML>
